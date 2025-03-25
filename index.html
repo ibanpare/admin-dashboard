@@ -1,119 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./stylesheet.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./stylesheet.css" />
     <title>Admin Dashboard</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <p>icon</p>
-        <div class="search">
-            <label for="search">Search</label>
-            <input type="search" name="search" id="search">
-        </div>
-        <p>notifications</p>
-        <p>logo</p>
-        <p>Morgan Oakley</p>
-        <p>logo</p>
-        <p>Hi there, Morgan Oakley</p>
-        <button>New</button>
-        <button>Upload</button>
-        <button>Share</button>
+      <p>icon</p>
+      <div class="search">
+        <label for="search">Search</label>
+        <input type="search" name="search" id="search" />
+      </div>
+      <p>notifications</p>
+      <img
+        src="./assets/img/dog.png"
+        alt="profile picture of user"
+        class="right-profile-img"
+      />
+      <p>Morgan Oakley</p>
+      <img
+        src="./assets/img/dog.png"
+        alt="profile picture of user"
+        class="left-profile-img"
+      />
+      <p>Hi there, Morgan Oakley</p>
+      <button>New</button>
+      <button>Upload</button>
+      <button>Share</button>
     </header>
     <nav>
-        <h1>Dashboard</h1>
-        <ul class="main-links">
+      <div class="nav-wrapper">
+          <img
+            class="icon"
+            src="./assets/icons/view-dashboard.svg"
+            alt="Dashboard icon"
+          />
+          <h1>Dashboard</h1>
+      </div>
+      <ul class="main-links">
+        <div class="nav-wrapper">
+            <img
+              class="icon"
+              src="./assets/icons/home-account.svg"
+              alt="Dashboard icon"
+            />
             <li>Home</li>
+        </div>
+        <div class="nav-wrapper">
+            <img
+              class="icon"
+              src="./assets/icons/account.svg"
+              alt="Dashboard icon"
+            />
             <li>Profile</li>
+        </div>
+        <div class="nav-wrapper">
+            <img
+              class="icon"
+              src="./assets/icons/message-reply.svg"
+              alt="Dashboard icon"
+            />
             <li>Messages</li>
+        </div>
+        <div class="nav-wrapper">
+            <img
+              class="icon"
+              src="./assets/icons/history.svg"
+              alt="Dashboard icon"
+            />
             <li>History</li>
+        </div>
+        <div class="nav-wrapper">
+            <img
+              class="icon"
+              src="./assets/icons/folder-multiple.svg"
+              alt="Dashboard icon"
+            />
             <li>Tasks</li>
+        </div>
+        <div class="nav-wrapper">
+            <img
+              class="icon"
+              src="./assets/icons/account-group.svg"
+              alt="Dashboard icon"
+            />
             <li>Communities</li>
-        </ul>
-        <ul class="other-links">
+        </div>
+      </ul>
+      <ul class="other-links">
+        <div class="nav-wrapper">
+            <img
+              class="icon"
+              src="./assets/icons/cog.svg"
+              alt="Dashboard icon"
+            />
             <li>Settings</li>
+        </div>
+        <div class="nav-wrapper">
+            <img
+              class="icon"
+              src="./assets/icons/face-agent.svg"
+              alt="Dashboard icon"
+            />
             <li>Support</li>
+        </div>
+        <div class="nav-wrapper">
+            <img
+              class="icon"
+              src="./assets/icons/shield-check.svg"
+              alt="Dashboard icon"
+            />
             <li>Privacy</li>
-        </ul>
+        </div>
+      </ul>
     </nav>
     <main>
-        <div class="projects">
-            <h2>Your Projects</h2>
-            <div class="projects-cards">
-                <div class="card">
-                    <h4>Super Cool Project</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sit est mollitia consectetur nam
-                        reprehenderit odit similique, soluta omnis iste a.</p>
-                </div>
-                <div class="card">
-                    <h4>Super Cool Project</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sit est mollitia consectetur nam
-                        reprehenderit odit similique, soluta omnis iste a.</p>
-                </div>
-                <div class="card">
-                    <h4>Super Cool Project</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sit est mollitia consectetur nam
-                        reprehenderit odit similique, soluta omnis iste a.</p>
-                </div>
-                <div class="card">
-                    <h4>Super Cool Project</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sit est mollitia consectetur nam
-                        reprehenderit odit similique, soluta omnis iste a.</p>
-                </div>
-                <div class="card">
-                    <h4>Super Cool Project</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sit est mollitia consectetur nam
-                        reprehenderit odit similique, soluta omnis iste a.</p>
-                </div>
-                <div class="card">
-                    <h4>Super Cool Project</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sit est mollitia consectetur nam
-                        reprehenderit odit similique, soluta omnis iste a.</p>
-                </div>
-            </div>
+      <div class="projects">
+        <h2>Your Projects</h2>
+        <div class="projects-cards">
+          <div class="card">
+            <h4>Super Cool Project</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              sit est mollitia consectetur nam reprehenderit odit similique,
+              soluta omnis iste a.
+            </p>
+          </div>
+          <div class="card">
+            <h4>Super Cool Project</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              sit est mollitia consectetur nam reprehenderit odit similique,
+              soluta omnis iste a.
+            </p>
+          </div>
+          <div class="card">
+            <h4>Super Cool Project</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              sit est mollitia consectetur nam reprehenderit odit similique,
+              soluta omnis iste a.
+            </p>
+          </div>
+          <div class="card">
+            <h4>Super Cool Project</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              sit est mollitia consectetur nam reprehenderit odit similique,
+              soluta omnis iste a.
+            </p>
+          </div>
+          <div class="card">
+            <h4>Super Cool Project</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              sit est mollitia consectetur nam reprehenderit odit similique,
+              soluta omnis iste a.
+            </p>
+          </div>
+          <div class="card">
+            <h4>Super Cool Project</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              sit est mollitia consectetur nam reprehenderit odit similique,
+              soluta omnis iste a.
+            </p>
+          </div>
         </div>
-        <div class="announcements">
-            <h2>Announcements</h2>
-            <div class="news">
-                <h5>Site Maintenance</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sit est mollitia consectetur nam
-                    reprehenderit odit similique, soluta omnis iste a.</p>
-            </div>
-            <div class="news">
-                <h5>Community Share Day</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sit est mollitia consectetur nam
-                    reprehenderit odit similique, soluta omnis iste a.</p>
-            </div>
-            <div class="news">
-                <h5>Updated Privacy Policy</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sit est mollitia consectetur nam
-                    reprehenderit odit similique, soluta omnis iste a.</p>
-            </div>
+      </div>
+      <div class="announcements">
+        <h2>Announcements</h2>
+        <div class="news">
+          <h5>Site Maintenance</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sit
+            est mollitia consectetur nam reprehenderit odit similique, soluta
+            omnis iste a.
+          </p>
         </div>
-        <div class="trending">
-            <h2>Trending</h2>
-            <div class="trend">
-                <h5>@tegan</h5>
-                <p>World Peace Builder</p>
-            </div>
-            <div class="trend">
-                <h5>@morgna</h5>
-                <p>Super Cool Project</p>
-            </div>
-            <div class="trend">
-                <h5>@kendall</h5>
-                <p>Life Changing App</p>
-            </div>
-            <div class="trend">
-                <h5>@alex</h5>
-                <p>No Traffic Maker</p>
-            </div>
+        <div class="news">
+          <h5>Community Share Day</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sit
+            est mollitia consectetur nam reprehenderit odit similique, soluta
+            omnis iste a.
+          </p>
         </div>
+        <div class="news">
+          <h5>Updated Privacy Policy</h5>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sit
+            est mollitia consectetur nam reprehenderit odit similique, soluta
+            omnis iste a.
+          </p>
+        </div>
+      </div>
+      <div class="trending">
+        <h2>Trending</h2>
+        <div class="trend">
+          <img
+            src="./assets/img/rabbit.png"
+            alt="profile picture of user"
+            class="trending-profile-img"
+          />
+          <h5>@tegan</h5>
+          <p>World Peace Builder</p>
+        </div>
+        <div class="trend">
+          <img
+            src="./assets/img/dog.png"
+            alt="profile picture of user"
+            class="trending-profile-img"
+          />
+          <h5>@morgan</h5>
+          <p>Super Cool Project</p>
+        </div>
+        <div class="trend">
+          <img
+            src="./assets/img/bear.png"
+            alt="profile picture of user"
+            class="trending-profile-img"
+          />
+          <h5>@kendall</h5>
+          <p>Life Changing App</p>
+        </div>
+        <div class="trend">
+          <img
+            src="./assets/img/chicken.png"
+            alt="profile picture of user"
+            class="trending-profile-img"
+          />
+          <h5>@alex</h5>
+          <p>No Traffic Maker</p>
+        </div>
+      </div>
     </main>
-</body>
-
+    <footer>
+      <a
+        href="https://www.flaticon.com/free-icons/animals"
+        title="animals icons"
+        >Animals icons created by Freepik - Flaticon</a
+      >
+    </footer>
+  </body>
 </html>
