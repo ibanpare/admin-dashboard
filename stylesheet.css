@@ -1,3 +1,7 @@
+:root {
+    --main-color: rgb(69, 144, 206);
+  }
+
 /* 1. Use a more-intuitive box-sizing model */
 *, *::before, *::after {
     box-sizing: border-box;
@@ -51,6 +55,12 @@ body {
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 5fr;
     font-family: "Roboto", sans-serif;
+    height: 100vh;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -66,8 +76,34 @@ nav {
     grid-row: 1 / 3;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 3fr 5fr;
+    grid-template-rows: 1fr 2fr 3fr 10fr;
     gap: 30px;
+    background-color: var(--main-color);
+    color: white;
+    padding: 10px 20px 0px 20px;
+}
+
+.nav-title, .nav-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+}
+
+.nav-title {
+    align-self: start;
+}
+
+.nav-title img {
+    min-width: 36px;
+    height: auto;
+}
+
+.nav-wrapper {
+    font-weight: 600;
+}
+
+nav h1, nav li {
+    padding: 10px;
 }
 
 main {
@@ -223,7 +259,3 @@ li {
     height: 45px;
 }
 
-.nav-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 5fr;
-}
