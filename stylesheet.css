@@ -69,6 +69,27 @@ header {
     grid-template-rows: 50px 50px;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    align-items: center;
+}
+
+.button-wrapper {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    grid-column: 5 / 6;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.button-wrapper > button {
+    background-color: var(--main-color);
+    color: white;
+    border: 0;
+    border-radius: 25px;
+    padding: 5px 25px 5px 25px;
+    font-weight: 700;
+    font-size: 0.8rem;
 }
 
 nav {
