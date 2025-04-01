@@ -95,6 +95,23 @@ header {
 .notifications {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
+.notifications > .header-icon {
+    justify-self: right;
+}
+
+.notifications > img {
+    justify-self: center;
+}
+
+.notifications > p {
+    font-size: 0.9rem;
+    font-weight: 700;
 }
 
 .hi-wrapper {
