@@ -65,19 +65,58 @@ ul, li {
 
 header {
     display: grid;
-    grid-template-columns: 1fr 5fr 1fr 1fr 1fr;
-    grid-template-rows: 50px 50px;
+    grid-template-columns: 5fr 1fr;
+    grid-template-rows: 50px 100px;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     align-items: center;
 }
 
+.search {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.notifications {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.hi-wrapper {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 1fr 2fr;
+    align-items: center;
+}
+
+.hi-wrapper > img {
+    min-width: 40px;
+    min-height: 40px;
+    grid-row: 1 / 3;
+    padding-left: 35px;
+}
+
+.hi-wrapper > .salutation {
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding-left: 25px;
+}
+
+.hi-wrapper > .user-name {
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding-left: 25px;
+}
+
 .button-wrapper {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-    grid-column: 5 / 6;
     margin-right: 50px;
     margin-bottom: 20px;
 }
